@@ -1,8 +1,7 @@
-package com.example.apiforrajera.controllers;
-
-import com.example.apiforrajera.dto.UnidadMedidaDto;
-import com.example.apiforrajera.entities.UnidadMedida;
-import com.example.apiforrajera.services.UnidadMedidaService;
+package com.gmdhody.apiforrajerapt1.controllers;
+import com.gmdhody.apiforrajerapt1.dto.UnidadMedidaDto;
+import com.gmdhody.apiforrajerapt1.entities.UnidadMedida;
+import com.gmdhody.apiforrajerapt1.services.UnidadMedidaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

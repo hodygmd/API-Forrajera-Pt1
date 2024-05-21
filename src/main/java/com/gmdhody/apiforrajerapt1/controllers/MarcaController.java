@@ -1,8 +1,8 @@
-package com.example.apiforrajera.controllers;
+package com.gmdhody.apiforrajerapt1.controllers;
 
-import com.example.apiforrajera.dto.MrcFncnDto;
-import com.example.apiforrajera.entities.Marca;
-import com.example.apiforrajera.services.MarcaService;
+import com.gmdhody.apiforrajerapt1.dto.MrcFncnDto;
+import com.gmdhody.apiforrajerapt1.entities.Marca;
+import com.gmdhody.apiforrajerapt1.services.MarcaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

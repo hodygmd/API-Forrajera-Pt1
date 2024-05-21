@@ -1,16 +1,15 @@
-package com.example.apiforrajera.services;
+package com.gmdhody.apiforrajerapt1.services;
 
-import com.example.apiforrajera.dto.CategoriaDto;
-import com.example.apiforrajera.entities.Categoria;
-import com.example.apiforrajera.repositories.CategoriaRepository;
-import com.example.apiforrajera.repositories.FuncionRepository;
+import com.gmdhody.apiforrajerapt1.dto.CategoriaDto;
+import com.gmdhody.apiforrajerapt1.entities.Categoria;
+import com.gmdhody.apiforrajerapt1.repositories.CategoriaRepository;
+import com.gmdhody.apiforrajerapt1.repositories.FuncionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class CategoriaService {
